@@ -1,7 +1,7 @@
 public class SortUtilTwo {
     public static void main(String[] args) {
         int data[] = new int[] { 3, 6, 1, 2, 8, 0 };
-        java.util.Arrays.sort(data);
+        java.util.Arrays.sort(data); // Sorts smallest to biggest
         print(data);
 
     }
