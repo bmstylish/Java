@@ -7,11 +7,11 @@ public class SwappingEndsAdv {
     }
 
     public static void reverse(int arr[]) {
-        int len = arr.length / 2;
+        int len = arr.length / 2; // Checking for odd or even length
         int head = 0;
         int tail = arr.length - 1;
 
-        for (int x = 0; x < len; x++) {
+        for (int x = 0; x < len; x++) { // Swapping Process
             int temp = arr[head];
             arr[head] = arr[tail];
             arr[tail] = temp;
