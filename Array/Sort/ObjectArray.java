@@ -16,7 +16,6 @@ public class ObjectArray {
             System.out.println(book2[x].getInfo());
         }
     }
-
 }
 
 /**
