@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticAppTwo",
+            "request": "launch",
+            "mainClass": "Static.StaticAppTwo",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "StaticApp",
+            "request": "launch",
+            "mainClass": "Static.StaticApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethod",
+            "request": "launch",
+            "mainClass": "Static.StaticMethod",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "StaticVar",
+            "request": "launch",
+            "mainClass": "Static.StaticVar",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "PriavetVar",
+            "request": "launch",
+            "mainClass": "Object.PriavetVar",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "ObjectComparsion",
+            "request": "launch",
+            "mainClass": "Object.ObjectComparsion",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "PassByStringTwo",
+            "request": "launch",
+            "mainClass": "PassByValue.PassByStringTwo",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "PassbyString",
             "request": "launch",
             "mainClass": "PassByValue.PassbyString",
