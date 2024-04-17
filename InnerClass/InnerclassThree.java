@@ -4,18 +4,20 @@ class Outer {
     private String msg = "Hello";
 
     class Inner {
+        private String info = "World";
+
         public void print() {
-            System.out.println(msg);
+            System.out.println(Outer.this.msg);
         }
     }
 
     public void fun() {
-        new Inner().print();
+        Inner in = new Inner();
+        System.out.println(in.info); // Access private methods of inner class
     }
-
 }
 
-public class Innerclass {
+public class InnerclassThree {
     public static void main(String[] args) {
         Outer outer = new Outer();
         outer.fun();

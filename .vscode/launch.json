@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerclassThree",
+            "request": "launch",
+            "mainClass": "InnerClass.InnerclassThree",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "InnerclassTwo",
+            "request": "launch",
+            "mainClass": "InnerClass.InnerclassTwo",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Innerclass",
+            "request": "launch",
+            "mainClass": "InnerClass.Innerclass",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "age",
+            "request": "launch",
+            "mainClass": "age",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "StaticAppTwo",
             "request": "launch",
             "mainClass": "Static.StaticAppTwo",

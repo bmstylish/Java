@@ -5,19 +5,14 @@ class Outer {
 
     class Inner {
         public void print() {
-            System.out.println(msg);
+            System.out.println(Outer.this.msg);
         }
     }
-
-    public void fun() {
-        new Inner().print();
-    }
-
 }
 
-public class Innerclass {
+public class InnerclassFour {
     public static void main(String[] args) {
-        Outer outer = new Outer();
-        outer.fun();
+        Outer.Inner in = new Outer().new Inner(); // Insantiate the inner class
+        in.print();
     }
 }
