@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwappingEnds",
+            "request": "launch",
+            "mainClass": "SwappingEnds",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Links",
+            "request": "launch",
+            "mainClass": "Nodes.Links",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Nodes",
+            "request": "launch",
+            "mainClass": "Nodes.Nodes",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "InnerclassThree",
             "request": "launch",
             "mainClass": "InnerClass.InnerclassThree",
