@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NodeApp",
+            "request": "launch",
+            "mainClass": "Nodes.NodeApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "SwappingEnds",
             "request": "launch",
             "mainClass": "SwappingEnds",

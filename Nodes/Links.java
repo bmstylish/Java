@@ -24,9 +24,9 @@ class Link {
         }
 
         public void addNode(Node newNode) {
-            if (this.next == null) {
-                this.next = newNode;
-            } else {
+            if (this.next == null) { // the next of the current node is null
+                this.next = newNode; // save the new node
+            } else { // move on to the next node to save
                 this.next.addNode(newNode);
             }
         }
@@ -59,13 +59,13 @@ class Link {
 
         // Check if the data is in the list
         public boolean contains(String data) {
-            if (data.equals(this.data)) {
-                return true;
-            } else {
-                if (this.next != null) {
-                    return this.next.contains(data);
-                } else {
-                    return false;
+            if (data.equals(this.data)) { // If the current data is the same as the data we want to find
+                return true; // Return, does not check for the next node
+            } else { // If the current data is not the same as the data we want to find
+                if (this.next != null) { // If the next node is not null
+                    return this.next.contains(data); // Check the next node
+                } else { // If the next node is null
+                    return false; // Return false, does not contain the data
                 }
             }
         }
