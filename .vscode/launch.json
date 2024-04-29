@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayInhert",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Inheritance.ArrayInhert",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Overwrite",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Inheritance.AdvJava_OOP.Inheritance.Overwrite",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverwrite",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Inheritance.MethodOverwrite",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance_3",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Inheritance.Inheritance_3",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Inheritance.Inheritance",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "ObjectThis",
             "request": "launch",
             "mainClass": "ObjectThis",
