@@ -45,6 +45,17 @@ class ReverseArray extends Array {
     }
 }
 
+class SortArray extends Array {
+    public SortArray(int len) {
+        super(len);
+    }
+
+    public int[] getData() {
+        java.util.Arrays.sort(super.getData());
+        return super.getData();
+    }
+}
+
 public class ArrayInhert {
     public static void main(String[] args) {
         Array arr = new Array(3);

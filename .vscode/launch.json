@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Abstract.test",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Abstract",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Abstract.Abstract",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "DownApp",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Polymorphism.DownApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "UpApp",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Polymorphism.UpApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Polymorphism",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "ArrayInhert",
             "request": "launch",
             "mainClass": "AdvJava_OOP.Inheritance.ArrayInhert",
