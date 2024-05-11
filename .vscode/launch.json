@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Petshop",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Petshop",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "NodeApp",
+            "request": "launch",
+            "mainClass": "Simple_Java_OOP.Nodes.NodeApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "NodeEditing",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Object.NodeEditing",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "ObjectInterface",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Object.ObjectInterface",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "ObjectArray",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Object.ObjectArray",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "toStringOverwrite",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Object.toStringOverwrite",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "ProxyApp",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.ProxyApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceFactoryApp",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.InterfaceFactoryApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceApp",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.InterfaceApp",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "StaticInterface",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.StaticInterface",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "AbstractInInterface",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.AbstractInInterface",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "AbstractChildInterface",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.AbstractChildInterface",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "BasicInterface",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Interface.BasicInterface",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "AbstractTemplate",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Abstract.AbstractTemplate",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "InitalValue",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.Abstract.InitalValue",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "AdvJava_OOP.Abstract.test",
