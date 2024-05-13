@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WrapnUnwrap",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.WrapperClass.WrapnUnwrap",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "DataConversion",
+            "request": "launch",
+            "mainClass": "AdvJava_OOP.WrapperClass.DataConversion",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "Petshop",
             "request": "launch",
             "mainClass": "AdvJava_OOP.Petshop",
