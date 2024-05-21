@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assert",
+            "request": "launch",
+            "mainClass": "ErrorCatching.Assert",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "TryCatchFinally",
+            "request": "launch",
+            "mainClass": "ErrorCatching.TryCatchFinally",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "MultiTon",
+            "request": "launch",
+            "mainClass": "Package.MultiTon",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "UseSimple",
+            "request": "launch",
+            "mainClass": "Package.UseSimple",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "WrapnUnwrap",
             "request": "launch",
             "mainClass": "AdvJava_OOP.WrapperClass.WrapnUnwrap",
