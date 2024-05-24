@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Method",
+            "request": "launch",
+            "mainClass": "JavaNewFeatures.Generics.Method",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Wildcard",
+            "request": "launch",
+            "mainClass": "JavaNewFeatures.Generics.Wildcard",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "Foreach",
+            "request": "launch",
+            "mainClass": "JavaNewFeatures.Foreach",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
+            "name": "VaryingParam",
+            "request": "launch",
+            "mainClass": "JavaNewFeatures.VaryingParam",
+            "projectName": "Java_8e6a11fa"
+        },
+        {
+            "type": "java",
             "name": "Assert",
             "request": "launch",
             "mainClass": "ErrorCatching.Assert",
